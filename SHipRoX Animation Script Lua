@@ -1,0 +1,33 @@
+getgenv().emotesEnabled = true
+getgenv().animationsEnabled = true
+
+getgenv().emotes = {
+    yungblud=15610015346,
+    herolanding=5104377791,
+    sturdy=17746270218,
+    powerblast=4849497510,
+    flossdance=5917570207,
+    babyqueen=14353423348,
+    Cocolevitate=15698511500,
+    godlike=3823158750,
+}
+
+getgenv().animationPack = 'SHipRoX'
+
+getgenv().animations = {
+    run = {'rbxassetid://782842708'},
+    walk = {'rbxassetid://742640026'},
+    jump = {'rbxassetid://707853694'},
+    idle = {
+        'rbxassetid://656117400',
+        'rbxassetid://656118341'
+    },
+    fall = {'rbxassetid://656115606'},
+    swim = {
+        'rbxassetid://616011509',
+        'rbxassetid://616012453'
+    },
+    climb = {'rbxassetid://742636889'}
+}
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/wallop560/randomScripts/main/AnimationChanger.lua'))()
