@@ -15,14 +15,14 @@ getgenv().emotes = {
 getgenv().animationPack = 'SHipRoX'
 
 getgenv().animations = {
-    run = {'rbxassetid://782842708'},
+    run = {'rbxassetid://5319844329'},
     walk = {'rbxassetid://742640026'},
-    jump = {'rbxassetid://656117878'},
+    jump = {'rbxassetid://5319841935'},
     idle = {
         'rbxassetid://782841498',
         'rbxassetid://782845736'
     },
-    fall = {'rbxassetid://656115606'},
+    fall = {'rbxassetid://5319839762'},
     swim = {
         'rbxassetid://616011509',
         'rbxassetid://616012453'
